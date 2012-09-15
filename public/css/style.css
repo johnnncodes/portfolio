@@ -1,0 +1,41 @@
+/*
+	master css
+*/
+
+/* ------------------------------------------------------------ */
+/* GENERAL #################################################### */
+/* ------------------------------------------------------------ */
+body { padding-top: 60px; } /* 60px to make the container go all the way to the bottom of the topbar */
+
+.hero-unit h1 { text-align: center; }
+.hero-unit p { text-align: justify; text-justify:inter-word; }
+
+
+
+ul#thumbnails { margin: 0; list-style: none; }
+	ul#thumbnails img { height: 360px; width: 360px; }
+		/*ul#thumbnails img.img-polaroid { width: 360px; }*/
+		ul#thumbnails img:hover { background: #EEE; }
+		ul#thumbnails .span4 { margin-bottom: 20px; }
+		ul#thumbnails .btn { margin-top: 10px; }
+	
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	ul#thumbnails .span4 { width: 352px; }
+	ul#thumbnails .btn { width: 362px; } 
+}
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+	ul#thumbnails .span4 { width: 100%; text-align: center; background: #EEE; padding-top: 10px; }
+	blockquote#portfolio-heading-con { text-align: center; }
+ }
+
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+
+		
+}
