@@ -13,12 +13,16 @@ body { padding-top: 60px; } /* 60px to make the container go all the way to the 
 
 
 ul#thumbnails { margin: 0; list-style: none; }
-	ul#thumbnails img { height: 360px; width: 360px; }
+	ul#thumbnails img { height: 400px; width: 360px; }
 		/*ul#thumbnails img.img-polaroid { width: 360px; }*/
-		ul#thumbnails img:hover { background: #EEE; }
+		ul#thumbnails img:hover { background: #3A87AD; }
 		ul#thumbnails .span4 { margin-bottom: 20px; }
 		ul#thumbnails .btn { margin-top: 10px; }
 	
+
+@media (min-width: 769px) and (max-width: 1200px) {
+	ul#thumbnails img { height: 350px; }
+}
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
@@ -29,8 +33,9 @@ ul#thumbnails { margin: 0; list-style: none; }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) { 
-	ul#thumbnails .span4 { width: 100%; text-align: center; background: #EEE; padding-top: 10px; }
+	ul#thumbnails .span4 { width: 100%; text-align: center; background: #EEE; padding-top: 10px; padding-bottom: 10px; border-radius: 6px; -webkit-border-radius: 6px; }
 	blockquote#portfolio-heading-con { text-align: center; }
+	ul#thumbnails .btn { width: 370px; margin-right: auto; margin-left: auto; } 
  }
 
 
