@@ -22,11 +22,13 @@ ul#thumbnails { margin: 0; list-style: none; }
 
 @media (min-width: 769px) and (max-width: 1200px) {
 	ul#thumbnails img { height: 350px; width: 97%; }
+	
 }
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
 	ul#thumbnails .span4 { width: 352px; }
+	body { padding-top: 0; }
 }
 
 
@@ -35,12 +37,18 @@ ul#thumbnails { margin: 0; list-style: none; }
 	ul#thumbnails .span4 { width: 100%; text-align: center; background: #EEE; padding-top: 10px; padding-bottom: 10px; border-radius: 6px; -webkit-border-radius: 6px; }
 	blockquote#portfolio-heading-con { text-align: center; }
 	ul#thumbnails .btn { width: 370px; margin-right: auto; margin-left: auto; } 
+	body { padding-top: 0; }
  }
 
 
 /* Landscape phones and down */
 @media (max-width: 480px) { 
 	ul#thumbnails .btn { width: 100%; }
-	ul#thumbnails img { width: 95% }
-		
+	ul#thumbnails img { width: 95%; }
+	div.hero-unit p.pull-right { float: none; text-align: center;  } 
+	
+}
+
+@media (max-width : 320px) {
+	ul#thumbnails img { height: 300px; }
 }
