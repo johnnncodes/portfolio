@@ -21,13 +21,12 @@ ul#thumbnails { margin: 0; list-style: none; }
 	
 
 @media (min-width: 769px) and (max-width: 1200px) {
-	ul#thumbnails img { height: 350px; }
+	ul#thumbnails img { height: 350px; width: 97%; }
 }
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
 	ul#thumbnails .span4 { width: 352px; }
-	ul#thumbnails .btn { width: 362px; } 
 }
 
 
@@ -41,6 +40,7 @@ ul#thumbnails { margin: 0; list-style: none; }
 
 /* Landscape phones and down */
 @media (max-width: 480px) { 
-
+	ul#thumbnails .btn { width: 100%; }
+	ul#thumbnails img { width: 95% }
 		
 }
