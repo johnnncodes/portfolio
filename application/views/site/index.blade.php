@@ -65,7 +65,7 @@
 
       <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit">
-        <h1 >Freelance Web Developer & Designer</h1>
+        <h1 >I LOVE THE WEB!</h1>
         <p>
           I build simple,beautiful and effective websites that gives my clients better opportunities to make their business a huge success.I provide their needs by using my excellent skills in web development, dedication and passion that results in beautiful and functional websites.
         </p>
