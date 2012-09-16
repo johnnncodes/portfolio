@@ -27,18 +27,20 @@
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="active"><a href="#"><i class="icon-home"></i> Home</a></li>
-              <li><a href="#"><i class="icon-user"></i> Overview</a></li>
+              <li><a href="#"><i class="icon-user"></i> Overview (Coming Very Soon!)</a></li>
 
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-star"></i> Related Links <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
+                  <li><a target="_blank" href="http://www.facebook.com/rei.liit">Facebook Accout</a></li>
+                  <li><a target="_blank" href="https://twitter.com/rei_liit">Twitter Account</a></li>
+                   <li><a target="_blank" href="https://www.odesk.com/users/~01f1dbcff7ace73fae">Odesk Account</a></li>
+                  <li><a target="_blank" href="http://www.facebook.com/pages/CodexDeveloper/324625544269696">Codex Developer FB Page</a></li>
                   <li class="divider"></li>
-                  <li class="nav-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
+                  <li class="nav-header">My Favorite PHP Frameworks/Platforms</li>
+                  <li><a target="_blank" href="http://codeigniter.com/">CodeIgniter</a></li>
+                  <li><a target="_blank" href="http://laravel.com/">Laravel</a></li>
+                  <li><a target="_blank" href="http://wordpress.org/">WordPress</a></li>
                 </ul> <!-- dropdown-menu -->
               </li><!-- dropdown -->
 
