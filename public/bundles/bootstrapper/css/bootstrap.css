@@ -2759,7 +2759,7 @@ table [class*=span],
   content: "";
 }
 
-.dropdown .caret {
+.dropdown-toggle .caret {
   margin-top: 8px;
   margin-left: 2px;
 }
