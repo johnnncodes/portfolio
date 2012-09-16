@@ -102,7 +102,7 @@
           </li>
           <li class="span4">
             <a target="_blank" href="http://www.codexdeveloperwp.netau.net/corporate-theme-html5/">
-              <img class="img-polaroid" src="img/portfolio-002.jpg"/>
+              <img class="img-polaroid" src="img/portfolio.jpg"/>
             </a>
             <a target="_blank" class="btn btn-large btn-block btn-primary" href="http://www.codexdeveloperwp.netau.net/corporate-theme-html5/">
               Live Demo
