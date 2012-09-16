@@ -5,15 +5,16 @@
 /* ------------------------------------------------------------ */
 /* GENERAL #################################################### */
 /* ------------------------------------------------------------ */
-body { padding-top: 60px; } /* 60px to make the container go all the way to the bottom of the topbar */
+body { padding-top: 60px; font-family: georgia; font-style: italic; } /* 60px to make the container go all the way to the bottom of the topbar */
 
 .hero-unit h1 { text-align: center; }
 .hero-unit p { text-align: justify; text-justify:inter-word; }
 
+blockquote#portfolio-heading-con h2 { color: #333; }
 
 
 ul#thumbnails { margin: 0; list-style: none; }
-	ul#thumbnails img { height: 400px; width: 360px; }
+	ul#thumbnails img { height: 360px; width: 360px; }
 		/*ul#thumbnails img.img-polaroid { width: 360px; }*/
 		ul#thumbnails img:hover { background: #3A87AD; }
 		ul#thumbnails .span4 { margin-bottom: 20px; }
@@ -24,6 +25,9 @@ ul#thumbnails { margin: 0; list-style: none; }
 	ul#thumbnails img { height: 350px; width: 97%; }
 	
 }
+
+footer { height: 50px; }
+
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {

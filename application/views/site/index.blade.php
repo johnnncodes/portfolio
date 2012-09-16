@@ -15,7 +15,7 @@
     {{ Asset::container('bootstrapper')->scripts(); }} 
 </head>
 <body>
- <div class="navbar navbar-inverse navbar-fixed-top">
+ <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -65,7 +65,7 @@
 
       <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit">
-        <h1 >I LOVE THE WEB!</h1>
+        <h1 >I love the web!</h1>
         <p>
           I build simple,beautiful and effective websites that gives my clients better opportunities to make their business a huge success.I provide their needs by using my excellent skills in web development, dedication and passion that results in beautiful and functional websites.
         </p>
@@ -84,57 +84,57 @@
       <div class="row">
         <ul id="thumbnails">
           <li class="span4">
-            <a href="#">
+            <a target="_blank" href="http://codexdev.site40.net/Portfolio-001/">
               <img class="img-polaroid" src="img/1981.jpg"/>
-            <a class="btn btn-large btn-block btn-primary" href="http://bootsnipp.com/snipps/like-love-share-delete">
+            <a target="_blank" class="btn btn-large btn-block btn-primary" href="http://codexdev.site40.net/Portfolio-001/">
               Live Demo
             </a>
           </li>
           <li class="span4">
-            <a href="#">
-              <img class="img-polaroid" src="img/auzone.jpg"/>
+            <a target="_blank" href="http://auzoneinn.web44.net/">
+              <img class="img-polaroid" src="img/auzone.png"/>
             </a>
-            <a class="btn btn-large btn-block btn-primary" href="http://bootsnipp.com/snipps/like-love-share-delete">
+            <a target="_blank" class="btn btn-large btn-block btn-primary" href="http://auzoneinn.web44.net/">
               Live Demo
             </a>
           </li>
           <li class="span4">
-            <a href="#">
+            <a target="_blank" href="http://www.codexdeveloperwp.netau.net/corporate-theme-html5/">
               <img class="img-polaroid" src="img/portfolio-002.jpg"/>
             </a>
-            <a class="btn btn-large btn-block btn-primary" href="http://bootsnipp.com/snipps/like-love-share-delete">
+            <a target="_blank" class="btn btn-large btn-block btn-primary" href="http://www.codexdeveloperwp.netau.net/corporate-theme-html5/">
               Live Demo
             </a>
           </li>
           <li class="span4">
-            <a href="#">
+            <a target="_blank" href="http://www.myhometalking.com/">
               <img class="img-polaroid" src="img/myhometalking.jpg"/>
             </a>
-            <a class="btn btn-large btn-block btn-primary" href="http://bootsnipp.com/snipps/like-love-share-delete">
+            <a target="_blank" class="btn btn-large btn-block btn-primary" href="http://www.myhometalking.com/">
               Live Demo
             </a>
           </li>
           <li class="span4">
-            <a href="#">
+            <a target="_blank" href="http://www.codexdeveloperwp.netau.net/shop/">
               <img class="img-polaroid" src="img/hillel.jpg"/>
             </a>
-            <a class="btn btn-large btn-block btn-primary" href="http://bootsnipp.com/snipps/like-love-share-delete">
+            <a target="_blank" class="btn btn-large btn-block btn-primary" href="http://www.codexdeveloperwp.netau.net/shop/">
               Live Demo
             </a>
           </li>
           <li class="span4">
-            <a href="#">
+            <a target="_blank" href="http://www.codexdeveloperwp.netau.net/neat/">
               <img class="img-polaroid" src="img/redrock.jpg"/>
             </a>
-            <a class="btn btn-large btn-block btn-primary" href="http://bootsnipp.com/snipps/like-love-share-delete">
+            <a target="_blank" class="btn btn-large btn-block btn-primary" href="http://www.codexdeveloperwp.netau.net/neat/">
               Live Demo
             </a>
           </li>
           <li class="span4">
-            <a href="#">
-              <img class="img-polaroid" src="img/codex.jpg"/>
+            <a target="_blank" href="http://www.codexdeveloper.webatu.com/">
+              <img class="img-polaroid" src="img/codexs.jpg"/>
             </a>
-            <a class="btn btn-large btn-block btn-primary" href="http://bootsnipp.com/snipps/like-love-share-delete">
+            <a target="_blank" class="btn btn-large btn-block btn-primary" href="http://www.codexdeveloper.webatu.com/">
               Live Demo
             </a>
           </li>
@@ -148,11 +148,15 @@
 
       <hr>
 
-      <footer>
-        <p>&copy; basco.johnkevin 2012</p>
-      </footer>
+     
 
     </div> <!-- /container -->
+
+     <footer>
+        <div class="container">
+          <p>&copy; basco.johnkevin 2012</p>
+        </div>
+    </footer>
 
 
 
