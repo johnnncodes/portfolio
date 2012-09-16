@@ -71,7 +71,7 @@
         <p>
           I build simple,beautiful and effective websites that gives my clients better opportunities to make their business a huge success.I provide their needs by using my excellent skills in web development, dedication and passion that results in beautiful and functional websites.
         </p>
-        <p class="pull-right"><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+        <p class="pull-right"><a target="_blank" href="https://www.odesk.com/users/~01f1dbcff7ace73fae" class="btn btn-primary btn-large">Hire me &raquo;</a></p>
       </div>
   
 
