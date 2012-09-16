@@ -156,7 +156,7 @@
 
      <footer>
         <div class="container">
-          <p>&copy; basco.johnkevin 2012</p>
+          <p>&copy; basco.johnkevin 2012 | Email address: basco.johnkevin@gmail.com</p>
         </div>
     </footer>
 
